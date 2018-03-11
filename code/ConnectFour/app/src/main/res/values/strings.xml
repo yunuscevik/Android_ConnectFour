@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Connect Four</string>
+    <string name="game_type">Game Type     :</string>
+    <string name="board_size">Board Size    :</string>
+    <string name="move_time">Move Time     :</string>
+    <string name="player_1_name">Player 1 Name :</string>
+    <string name="player_2_name">Player 2 Name :</string>
+    <string name="gameStartButton">GAME START</string>
+    <string name="undo">Undo</string>
+    <string name="help">HELP</string>
+    <string name="helpText">
+        1) This board is a special game board where game discs can be stacked on top of each other. The width of the game board is from 5x5 to 40x40. Expanding board can be moved with scrolls.\n
+        2) Board width and duration can be selected upon entering the game. The game has between 5 and 60 seconds. If the selected time expires, the computer plays randomly move.\n
+        3) You can also select player and player or player and computer. In this way you can play against the computer or you can play with your friend.\n
+        4) The game is played with discs made up of two different colors.\n
+        5) If a wrong move has been made, you can go back with an undo button.\n
+        6) If four of the same color are next to, diagonally and the over and over, the color of the discs turns green.\n
+        7) The player that made the first quartet in the game wins the game.\n
+    </string>
+    <array name="game_Type_Items">
+        <item>Player - Computer</item>
+        <item>Player1 - Player2</item>
+    </array>
+
+</resources>
